@@ -15,8 +15,10 @@
         <activity
                 android:name=".ExperienceActivity"
                 android:exported="false" />
+
+        <!--切换默认启动的activity-->
         <activity
-                android:name=".MainActivity"
+                android:name=".ExperienceActivity2"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
