@@ -60,7 +60,7 @@
     <TextView
             android:layout_marginLeft="10dp"
             android:gravity="center"
-            android:id="@+id/textView"
+            android:id="@+id/tv_remember"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="记住密码"
