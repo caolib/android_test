@@ -12,13 +12,14 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.Homework"
             tools:targetApi="31">
+        <!--<activity-->
+        <!--        android:name=".ExperienceActivity3"-->
+        <!--        android:exported="false" />-->
         <activity
                 android:name=".ExperienceActivity"
-                android:exported="false" />
-
-        <!--切换默认启动的activity-->
+                android:exported="false" /> <!-- 切换默认启动的activity -->
         <activity
-                android:name=".ExperienceActivity2"
+                android:name=".ExperienceActivity3"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +27,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

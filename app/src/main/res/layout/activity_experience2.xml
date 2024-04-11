@@ -7,7 +7,6 @@
         android:padding="10dp"
         tools:context=".ExperienceActivity2">
 
-    <!--第一个对话-->
     <TextView
             android:id="@+id/first"
             android:gravity="center_vertical"
@@ -36,7 +35,6 @@
             android:ellipsize="marquee"
             android:singleLine="true" />
 
-    <!--第二个图标-->
     <TextView
             android:id="@+id/second"
             app:layout_constraintTop_toBottomOf="@id/first"

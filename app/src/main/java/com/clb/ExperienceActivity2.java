@@ -8,9 +8,9 @@ import android.widget.TextView;
 
 public class ExperienceActivity2 extends AppCompatActivity {
 
-    TextView first;
-    TextView second;
-    TextView secondText;
+    TextView first_tv;
+    TextView second_icon;
+    TextView second_tv;
 
 
     @Override
@@ -18,24 +18,23 @@ public class ExperienceActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_experience2);
-        // 初始化
-        first = findViewById(R.id.first);
-        second = findViewById(R.id.second);
-        secondText = findViewById(R.id.second_text);
 
-        // 设置图标大小
-        int size = 150;
+        first_tv = findViewById(R.id.first);
+        second_icon = findViewById(R.id.second);
 
-        Drawable chicken = first.getCompoundDrawables()[0];
-        chicken.setBounds(0, 0, size, size);
-        first.setCompoundDrawables(chicken, null, null, null);
+        // 图标大小
+        int dimen = 150;
 
-        Drawable ball = second.getCompoundDrawables()[2];
-        ball.setBounds(0, 0, size, size);
-        second.setCompoundDrawables(null, null, ball, null);
+        Drawable chicken = first_tv.getCompoundDrawables()[0];
+        chicken.setBounds(0, 0, dimen, dimen);
+        first_tv.setCompoundDrawables(chicken, null, null, null);
 
-        // 设置第二个文本为被选中状态
-        secondText.setSelected(true);
+        Drawable ball = second_icon.getCompoundDrawables()[2];
+        ball.setBounds(0, 0, dimen, dimen);
+        second_icon.setCompoundDrawables(null, null, ball, null);
 
+        // 将第二段文本设置为选中状态
+        second_tv = findViewById(R.id.second_text);
+        second_tv.setSelected(true);
     }
 }
