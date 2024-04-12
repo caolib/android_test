@@ -6,7 +6,7 @@
 
 <span style="color:#ff6b6b;font-weight:bold;">一定要勾选第一个！！！</span>
 
-![image-20240412160759444](C:\Users\12655\AppData\Roaming\Typora\typora-user-images\image-20240412160759444.png)
+![image-20240412160759444](https://img2.imgtp.com/2024/04/12/5ZfPAs3e.png)
 
 ![image-20240412160828676](https://img2.imgtp.com/2024/04/12/yyLETyTi.png)
 
