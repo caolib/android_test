@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
         android:drawable="@drawable/loading"
-        android:pivotY="45%"
-        android:pivotX="45%">
+        android:pivotY="50%"
+        android:fromDegrees="0"
+        android:toDegrees="1800"
+        android:pivotX="50%">
 
-</animated-rotate>
+</rotate>

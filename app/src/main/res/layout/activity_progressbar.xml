@@ -18,13 +18,13 @@
 
     <ProgressBar
             android:id="@+id/pb"
-            android:visibility="gone"
+            android:visibility="invisible"
             android:indeterminateDrawable="@drawable/pb_loading"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/btn_download"
             app:layout_constraintEnd_toEndOf="parent"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
 
 
     <TextView
@@ -40,9 +40,9 @@
 
     <RatingBar
             android:id="@+id/rb"
+            android:numStars="4"
             android:visibility="gone"
             android:progressDrawable="@drawable/ratingbar"
-            android:stepSize="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_rating"

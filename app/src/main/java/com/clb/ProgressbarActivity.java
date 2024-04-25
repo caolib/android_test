@@ -11,10 +11,10 @@ import android.widget.TextView;
 
 public class ProgressbarActivity extends AppCompatActivity {
 
-    private Button btn_download;
     private ProgressBar progressBar;
     private RatingBar rb;
     private TextView tv;
+    private Button btn_download;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,7 @@ public class ProgressbarActivity extends AppCompatActivity {
 
 
         btn_download.setOnClickListener(view -> progressBar.setVisibility(View.VISIBLE));
+
         progressBar.setOnClickListener(view -> {
             progressBar.setVisibility(View.GONE);
             rb.setVisibility(View.VISIBLE);
