@@ -5,5 +5,5 @@
         android:fromDegrees="0"
         android:toDegrees="1800"
         android:pivotX="50%">
-
 </rotate>
+

@@ -26,7 +26,7 @@
 
         <!-- 切换默认启动的activity -->
         <activity
-                android:name=".ProgressbarActivity"
+                android:name=".MainActivity"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

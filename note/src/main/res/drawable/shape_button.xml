@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+当前打开的文件是 `shape_button.xml`，它是一个定义了形状的 Drawable 资源文件。这个文件定义了一个矩形形状，具有以下特性：
+- `<shape>`：定义了一个形状，通过 `android:shape="rectangle"` 指定这个形状是矩形,默认就是矩形
+- `<solid>`：定义了形状的填充色，通过 `android:color="@color/green"` 指定填充色为绿色。
+- `<corners>`：定义了形状的圆角，通过 `android:radius="50dp"` 指定圆角半径为 50dp。
+- `<stroke>`：定义了形状的描边样式，包括以下参数：
+  - `android:color="@color/red"`：描边颜色为红色。
+  - `android:width="10dp"`：描边宽度为 10dp。
+  - `android:dashWidth="20dp"`：虚线的宽度为 20dp。如果这个属性被设置了，那么描边将会是虚线，而不是实线。
+  - `android:dashGap="10dp"`：虚线之间的间隔为 10dp。这个属性只有在 `android:dashWidth` 被设置的情况下才会生效。
+这个形状可以用于 Android 应用中的任何需要使用 Drawable 的地方，例如作为按钮的背景。
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+    <solid android:color="@color/green"/>
+    <corners android:radius="50dp"/>
+    <stroke android:color="@color/red"
+            android:width="10dp"
+            android:dashWidth="20dp"
+            android:dashGap="10dp"/>
+
+</shape>
