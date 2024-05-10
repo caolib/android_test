@@ -1,5 +1,5 @@
 > [!tip]
-> ## [实验六变更](https://github.com/caolib/android_test/commit/be983ff6a490bb2e14cb256d83f41758baa9d482) **新建了一个模块new，记得改包名和各种属性值！！！**
+> ## [实验六变更，只看绿色的](https://github.com/caolib/android_test/commit/be983ff6a490bb2e14cb256d83f41758baa9d482) **新建了一个模块new，记得改包名和各种属性值！！！**
 > ~大概~就是这几个文件吧
 
 <img src="https://github.com/caolib/android_test/assets/102155030/097fca40-fd48-4ce9-8537-7317e9d874bd" alt="image" style="zoom: 50%;" />
