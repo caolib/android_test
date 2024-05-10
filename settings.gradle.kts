@@ -16,5 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "homework"
 include(":app")
-include(":android_note")
-include(":note")
+include(":new")
