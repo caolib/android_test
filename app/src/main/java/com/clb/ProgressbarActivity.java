@@ -26,9 +26,10 @@ public class ProgressbarActivity extends AppCompatActivity {
         rb = findViewById(R.id.rb);
         tv = findViewById(R.id.tv_rating);
 
-
+        // 点击下载按钮显示进度条
         btn_download.setOnClickListener(view -> progressBar.setVisibility(View.VISIBLE));
 
+        // 点击进度条后隐藏，显示评分条
         progressBar.setOnClickListener(view -> {
             progressBar.setVisibility(View.GONE);
             rb.setVisibility(View.VISIBLE);
