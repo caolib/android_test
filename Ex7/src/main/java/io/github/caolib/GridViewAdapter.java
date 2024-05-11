@@ -10,10 +10,11 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class MyAdapter extends BaseAdapter {
+public class GridViewAdapter extends BaseAdapter {
     private final List<Product> list;
     private final Context context;
-    public MyAdapter(Context context, List<Product> list) {
+
+    public GridViewAdapter(Context context, List<Product> list) {
         this.context = context;
         this.list = list;
     }
@@ -36,14 +37,13 @@ public class MyAdapter extends BaseAdapter {
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
         ViewHolder viewHolder;
-        if (view == null){
-            view = LayoutInflater.from(context).inflate(R.layout.list_item,null);
+        if (view == null) {
+            view = LayoutInflater.from(context).inflate(R.layout.grid_view_item, null);
             viewHolder = new ViewHolder();
-            viewHolder.imageView = view.findViewById(R.id.iv);
-            viewHolder.title = view.findViewById(R.id.item_title);
-
+            viewHolder.imageView = view.findViewById(R.id.gd_iv);
+            viewHolder.title = view.findViewById(R.id.gd_tv);
             view.setTag(viewHolder);
-        }else {
+        } else {
             viewHolder = (ViewHolder) view.getTag();
         }
         viewHolder.imageView.setImageResource(list.get(i).getImg());
@@ -52,7 +52,7 @@ public class MyAdapter extends BaseAdapter {
         return view;
     }
 
-    static class ViewHolder{
+    static class ViewHolder {
         ImageView imageView;
         TextView title;
     }
