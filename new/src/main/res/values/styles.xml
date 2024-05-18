@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="dialog">
-        <item name="windowMinWidthMajor">80%</item>
+        <item name="windowMinWidthMajor">50%</item>
         <item name="android:windowBackground">#0000</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>

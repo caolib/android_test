@@ -17,6 +17,19 @@
             android:layout_height="wrap_content" />
 
     <ProgressBar
+            android:id="@+id/pb2"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_download"
+            android:progress="3"
+
+            android:progressTint="#2196F3"
+            android:secondaryProgress="10"
+            android:secondaryProgressTint="#00B0FF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <ProgressBar
             android:id="@+id/pb"
             android:visibility="invisible"
             android:indeterminateDrawable="@drawable/pb_loading"
@@ -40,7 +53,7 @@
 
     <RatingBar
             android:id="@+id/rb"
-            android:numStars="4"
+            android:numStars="5"
             android:visibility="gone"
             android:progressDrawable="@drawable/ratingbar"
             app:layout_constraintStart_toStartOf="parent"

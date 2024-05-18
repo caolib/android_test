@@ -4,7 +4,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        tools:context=".activity_experience4"
+        tools:context=".ExperienceActivity4"
         android:padding="10dp">
 
     <LinearLayout

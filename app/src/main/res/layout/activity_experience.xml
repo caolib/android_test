@@ -26,8 +26,8 @@
             android:id="@+id/red_circle"
             android:backgroundTint="#FF00B7"
             android:background="@drawable/circle"
-            android:layout_width="@dimen/radius"
-            android:layout_height="@dimen/radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="200dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -37,12 +37,12 @@
     <TextView
             android:layout_margin="20dp"
             android:backgroundTint="#00FFC4"
-            app:constraint_referenced_ids="red_circle"
-            app:layout_constraintCircleAngle="225"
+            app:layout_constraintCircle="@id/yellow_circle"
+            app:layout_constraintCircleAngle="270"
+            app:layout_constraintCircleRadius="200dp"
             android:background="@drawable/circle"
-            app:layout_constraintCircleRadius="@dimen/radius"
-            android:layout_width="@dimen/radius"
-            android:layout_height="@dimen/radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
     <!--黄色圆形-->
@@ -53,7 +53,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:background="@drawable/circle"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_width="@dimen/radius"
-            android:layout_height="@dimen/radius" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

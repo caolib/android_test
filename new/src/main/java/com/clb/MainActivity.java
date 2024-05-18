@@ -25,14 +25,12 @@ public class MainActivity extends AppCompatActivity {
         Button btn_dialog = findViewById(R.id.btn_dialog);
 
         btn_dialog.setOnClickListener(v -> {
-            LayoutInflater inflater = getLayoutInflater();
-            View view = inflater.inflate(R.layout.dialog_layout, null);
+            View view = getLayoutInflater().inflate(R.layout.dialog_layout, null);
 
-            AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this, R.style.dialog)
+            new AlertDialog.Builder(MainActivity.this, R.style.dialog)
                     .setView(view)
-                    .create();
-
-            alertDialog.show();
+                    .create()
+                    .show();
         });
 
 
