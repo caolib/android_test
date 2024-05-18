@@ -14,15 +14,15 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.Homework"
             tools:targetApi="31">
-        <!--<activity-->
-        <!--        android:name=".ProgressbarActivity"-->
-        <!--        android:exported="false" />-->
-        <!-- <activity -->
-        <!-- android:name=".ExperienceActivity3" -->
-        <!-- android:exported="false" /> -->
-        <!--<activity-->
-        <!--        android:name=".ExperienceActivity"-->
-        <!--        android:exported="false" />-->
+        <activity
+                android:name=".ProgressbarActivity"
+                android:exported="false" />
+        <activity
+                android:name=".ExperienceActivity3"
+                android:exported="false" />
+        <activity
+                android:name=".ExperienceActivity"
+                android:exported="false" />
 
         <!-- 切换默认启动的activity -->
         <activity

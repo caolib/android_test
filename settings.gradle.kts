@@ -18,3 +18,4 @@ rootProject.name = "homework"
 include(":app")
 include(":new")
 include(":Ex7")
+include(":test")

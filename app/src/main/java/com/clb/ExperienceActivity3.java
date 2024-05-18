@@ -1,7 +1,5 @@
 package com.clb;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -12,6 +10,8 @@ import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ExperienceActivity3 extends AppCompatActivity implements View.OnClickListener {
 
@@ -69,4 +69,5 @@ public class ExperienceActivity3 extends AppCompatActivity implements View.OnCli
             sw.setChecked(!sw.isChecked());
         }
     }
+
 }
