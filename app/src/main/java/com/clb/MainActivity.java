@@ -35,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
         Log.d("debug", String.valueOf(age));
         Log.d("debug", address);
 
+        findViewById(R.id.tv_mar).setOnClickListener(v -> {
+            v.setSelected(true);
+        });
+
     }
 
 }

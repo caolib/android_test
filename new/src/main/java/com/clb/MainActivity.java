@@ -1,19 +1,11 @@
 package com.clb;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.AlertDialog;
-import android.app.Dialog;
-import android.app.Notification;
 import android.os.Bundle;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 
-import java.util.zip.Inflater;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
                     .create()
                     .show();
         });
+
+
 
 
     }

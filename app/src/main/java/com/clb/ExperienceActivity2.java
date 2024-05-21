@@ -1,10 +1,10 @@
 package com.clb;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ExperienceActivity2 extends AppCompatActivity {
 
